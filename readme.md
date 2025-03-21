@@ -10,10 +10,12 @@ A Python script to download videos, audio, and playlists from YouTube using the 
 -   Select video/audio quality (highest, medium, low).
 -   Option to download subtitles in multiple languages.
 
-## Prerequisites
+## Dependencies
 
--   Python 3.x installed on your system.
--   [`yt-dlp`](https://github.com/yt-dlp/yt-dlp) package installed. If not, you can install it using:
+-   Python 3.x
+-   yt-dlp
+
+Install dependencies with:
 
 ```bash
 pip install yt-dlp
@@ -66,17 +68,6 @@ Choose video format (mp4, mkv, webm, etc.): mp4
 Do you want to download subtitles? (y/n): y
 Enter the subtitle language code (e.g., 'en' for English, 'all' for all languages): en
 Choose quality: (1) Highest, (2) Medium, (3) Low: 1
-```
-
-## Dependencies
-
--   Python 3.x
--   yt-dlp
-
-Install dependencies with:
-
-```bash
-pip install yt-dlp
 ```
 
 ## Notes
