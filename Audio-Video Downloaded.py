@@ -14,7 +14,7 @@ def download_media(url, audio_only=False, playlist=False, file_format=None, subt
     # Use %(ext)s to reflect the actual produced extension, and write into the Downloads folder
     ydl_opts = {
         'outtmpl': os.path.join(downloads_dir, '%(title)s.%(ext)s'),
-        'quiet': False,  # Show progress and info
+        'quiet': True,  # Show progress and info
         'no_warnings': False,  # Show warnings if any
         'extract_flat': False,  # Disable flat extraction for playlists
     }
